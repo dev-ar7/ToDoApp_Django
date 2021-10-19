@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" >
+   <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57635392-5"></script>
+      <meta name="viewport" content="height=device-height, initial-scale=1, user-scalable=no">
+      <meta name="description" content="Todost" />
+      <link rel="shortcut icon" href="todost.png">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+      <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+      <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css'>
+      <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+      <link rel="stylesheet" href="css/style.css">
+      <title>{% block title %}Todost ✍️{% endblock title %}</title>
+   </head>
+   <body style="background-image: url('/static/images/bg.jpg');">
+  
+        {% block content %}
+        
+        {% endblock content %}
+
+         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+         <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+         {% comment %} <script  src="js/index.js"></script> {% endcomment %}
+         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        {% block javascript %} {% endblock %}
+   </body>
+   </body>
